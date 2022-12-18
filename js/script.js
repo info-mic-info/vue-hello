@@ -6,7 +6,7 @@ const {
 createApp({
     data(){
         return{
-            message : `Hello`
+            message : ``
         }
     }
 }).mount('#app')
