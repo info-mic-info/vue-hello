@@ -12,8 +12,17 @@
 <body>
     <div id="app">
         <input type="text" class="form-control" placeholder="Inserisci qui il tuo testo" v-model="message">
-        <h1>Prova a scrivere qualcosa nel campo di inserimento e per magia apparirà qui:{{ message }}</h1>
+        <h1>Prova a scrivere qualcosa nel campo di inserimento e per magia apparirà qui: {{message}}</h1>
+
+
+        <div class="image">
+            <img :src="url">
+        </div>
+
+
+
     </div>
+
 
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
